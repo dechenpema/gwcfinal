@@ -1,0 +1,23 @@
+.photo{
+  width:100%;
+  max-height: 500;
+  padding:0;
+}
+#title{
+  font-family:Trebuchet MS;
+  font-style: normal;
+  position: absolute;
+  top:30%;
+  left:30%;
+  font-size: 40pt;
+  text-align:center;
+  color:white;
+}
+#coverphoto{
+  width:100%;
+  max-height:500px;
+  padding:0;
+}
+body{
+  padding:0;
+}
