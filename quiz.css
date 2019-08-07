@@ -1,0 +1,52 @@
+body{font-family:Trebuchet MS}
+h1{
+  color:rgb(41, 87, 140);
+  text-align:center
+}
+legend{
+  color:rgb(41,87,140);
+  padding:1%;
+  border-style:solid;
+  border-width:thin;
+  border-color:gray;
+  border-radius:10px;
+  background-color:white;
+}
+fieldset{
+  border-radius: 3px;
+  background-color:#E5F0F1;
+  margin-bottom:2%
+}
+input{
+  margin:5px;
+}
+#submit{
+  color:white;
+  background-color:rgb(41,87,140);
+  height:50px;
+  width:10%;
+  border-radius:5px
+}
+
+#submit:hover{
+  background-color:rgb(32, 67, 107);
+  border-style:inset;
+  cursor:pointer
+}
+
+#wrongAnswer1, #rightAnswer1, #wrongAnswer2, #rightAnswer2{
+  height:20%;
+  width:40%;
+  background-color:white;
+  border-style:solid;
+  border-width:thin;
+  border-color:gray;
+  padding:1%;
+  border-radius:3px;
+  margin:1%;
+  /* display:none; */
+}
+
+b{
+  color:rgb(32, 67, 107)
+}

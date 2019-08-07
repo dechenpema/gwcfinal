@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Quiz</title>
+    <link href="quiz.css" rel="stylesheet">
+    <script src="./quiz.js"></script>
+    <link href="navigation.css" rel="stylesheet">
+  </head>
+  <body>
+    <menu>
+      <div class="table">
+        <li><a href=index.html>Home Page</a></li>
+        <li><a href=about.html>About Us</a></li>
+        <li class = "dropdown">
+          <a href="javascript:void(0)" class="dropbtn">The Problem</a>
+          <div class="dropdown-content">
+            <a href=immigration.html>Language Barriers & Awareness</a>
+            <a href=income.html>Income Inequality</a>
+          </div>
+        </li>
+        <li><a href=help.html>How To Help</a></li>
+        <li><a href=quiz.html>Quiz Yourself!</a></li>
+       </div>
+    </menu>
+
+    <h1>How much do you really know about education accessibility?</h1>
+    <form>
+      <fieldset>
+        <legend>Question 1</legend>
+        <p>Curabitur non ornare elit. Etiam sit amet feugiat leo, nec efficitur orci?</p>
+        <input type="radio" name="answer" value="responseA" onclick="wrongAnswer1()">Response A<br>
+        <input type="radio" name="answer" value="responseB" onclick="rightAnswer1()">Response B<br>
+        <input type="radio" name="answer" value="responseC" onclick="wrongAnswer1()">Response C<br>
+        <input type="radio" name="answer" value="responseD" onclick="wrongAnswer1()">Response D<br>
+        <div id="wrongAnswer1" style="display:none">
+          <p>The answer you put is <b>wrong</b>.</p>
+          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+        </div>
+        <div id="rightAnswer1" style="display:none">
+          <p>The answer you put is <b>right</b>.</p>
+          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+      </fieldset>
+      <fieldset>
+        <legend>Question 2</legend>
+        <p>Curabitur non ornare elit. Etiam sit amet feugiat leo, nec efficitur orci?</p>
+        <input type="radio" name="answer" value="responseA" onclick="wrongAnswer2()">Response A<br>
+        <input type="radio" name="answer" value="responseB" onclick="wrongAnswer2()">Response B<br>
+        <input type="radio" name="answer" value="responseC" onclick="wrongAnswer2()">Response C<br>
+        <input type="radio" name="answer" value="responseD" onclick="rightAnswer2()">Response D<br>
+        <div id="wrongAnswer2" style="display:none">
+          <p>The answer you put is <b>wrong</b>.</p>
+          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+        </div>
+        <div id="rightAnswer2" style="display:none">
+          <p>The answer you put is <b>right</b>.</p>
+          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+      </fieldset>
+      <button type="button" id="submit" onclick="showScore()">See your final score!</button>
+      <p id="finalscore"></p>
+  </body>
+</html>
