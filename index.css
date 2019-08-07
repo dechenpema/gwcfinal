@@ -61,6 +61,10 @@ body{
   clear:both;
 }
 
+#firstsolution img {
+  width: 20%;
+}
+
 #secondsolution {
   font-family:Trebuchet MS;
   font-style:normal;
@@ -71,12 +75,20 @@ body{
   clear:both;
 }
 
+#secondsolution img{
+  width:20%;
+}
+
 #thirdsolution {
   font-family:Trebuchet MS;
   font-style:normal;
   margin-left: 70%;
   width:20%;
   text-align:center;
+}
+
+#thirdsolution img{
+  width:20%
 }
 
 #solutions {
