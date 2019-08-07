@@ -4,13 +4,14 @@
     <title>Home</title>
     <link href="navigation.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
   </head>
   <body>
-
-<!--  --> creates navigation bar.
+<div class="outer">
     <menu>
       <div class="table">
         <li><a href=index.html>Home Page</a></li>
+        <li><a href=about.html>About Us</a></li>
         <li class = "dropdown">
         <a href="javascript:void(0)" class="dropbtn">The Problem</a>
         <div class="dropdown-content">
@@ -18,18 +19,47 @@
            <a href=income.html>income</a>
         </div>
           </li>
+        <li><a href=help.html>How to Help</a></li>
+        <li><a href=quiz.html>Quiz Yourself!</a></li>
        </div>
     </menu>
 
     <div class="body">
-      <section class="photo">
-        <img src="coverphoto.jpg" id="coverphoto">
+      <section id="photo">
+        <img src="coverphoto2.jpg" id="coverphoto" alt="Education cover photo">
         <center><h1 id="title">Website Name</h1></center>
       </section>
+
+      <section id="mission">
+        <h2>Our Mission:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus posuere ultricies. Suspendisse potenti. Maecenas elementum justo quis libero mattis posuere. </p>
+      </section>
+
+      <div id="solutions">
+        <section id = "firstsolution">
+          <img src = "speechbubble.png" >
+          <center><h2>Language</h2></center>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus posuere ultricies. Suspendisse potenti. Maecenas elementum justo quis libero mattis posuere. </p>
+        </section>
+
+        <section id = "secondsolution">
+          <img src = "education.png" >
+          <center><h2>Free Resources</h2></center>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus posuere ultricies. Suspendisse potenti. Maecenas elementum justo quis libero mattis posuere. </p>
+        </section>
+
+        <section id = "thirdsolution">
+          <img src = "awareness.png">
+          <center><h2>Awareness</h2></center>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus posuere ultricies. Suspendisse potenti. Maecenas elementum justo quis libero mattis posuere. </p>
+        </section>
+      </div>
     </div>
 
-
-
+    <footer>
+      <h4>Contact Us: gmail@gmail.com</h4>
+    </footer>
+</div>
 
 
   </body>
