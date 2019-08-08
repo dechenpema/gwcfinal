@@ -38,12 +38,23 @@ body{
   padding-bottom:3%
 }
 
-#body1 p{
-  float:left;
+#body1 h2{
   font-family:Trebuchet MS;
-  width:60%;
-  font-size:14pt;
-  margin:1.5%;
+  font-style:normal;
+  float:left;
+  padding-left: 40px;
+  width:100%;
+  height:10px;
+  color:rgb(41, 87, 140);
+}
+
+#body1 p{
+  font-family:Trebuchet MS;
+  padding-left: 40px;
+  width: 50%;
+  font-style:normal;
+  height:150px;
+  float:left;
 }
 
 #body1 img{
@@ -59,11 +70,23 @@ body{
   padding-bottom:1%;
 }
 
+#body2 h2{
+  font-family:Trebuchet MS;
+  font-style:normal;
+  float:right;
+  margin-right: 5%;
+  width:50%;
+  height:10px;
+  color:rgb(41, 87, 140);
+}
+
 #body2 p{
   font-family:Trebuchet MS;
-  width:60%;
-  height:400px;
-  font-size:14pt;
+  margin-right: 5%;
+  width: 50%;
+  font-style:normal;
+  height:150px;
+  float:right;
 }
 
 #body2{
