@@ -1,0 +1,195 @@
+body{
+  background-color:rgb(240, 240, 245);
+}
+
+#htitle{
+  height:40%;
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  font-family: Trebuchet MS;
+  color:rgb(41, 87, 140)
+}
+
+#t2{
+  text-align: center;
+  font-family: Trebuchet Ms;
+}
+#p1{
+  border:solid 10px;
+  float: left;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color:#E5F0F1;
+  margin-left: 60px;
+}
+#d{
+  text-align: center;
+  font-family: Trebuchet Ms;
+}
+#p2{
+  border: solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 70px;
+  float: left;
+}
+#i{
+  text-align: center;
+  font-family: Trebuchet Ms;
+}
+
+#p3{
+  border:solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 68px;
+  float: left;
+}
+#e{
+  text-align: center;
+  font-family: Trebuchet Ms;
+}
+
+#p1:hover{
+  cursor:pointer
+}
+
+#p2:hover{
+  cursor:pointer
+}
+#p3:hover{
+  cursor: pointer;
+}
+#more{
+  clear:both;
+  padding-top: 80px;
+  float:left;
+  font-size: 20pt
+}
+#diff{
+  float: left;
+  margin-left: 60px;
+}
+#SD{
+  position: relative;
+	top: 70px;
+  font-family: Trebuchet Ms;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 20pt;
+}
+.dreamus{
+  text-align: center;
+  font-family: Trebuchet Ms;
+  padding:5%;
+}
+#SD1{
+  float: left;
+  position: relative;
+	top: 70px;
+  border:solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 15px;
+  width:30%
+
+}
+.sdImg{
+  padding-left:7%;
+  padding-right:7%
+}
+.gmscholars{
+  text-align: center;
+  font-family: Trebuchet Ms;
+  padding:5%;
+}
+#SD2{
+  float: left;
+  position: relative;
+	top: 70px;
+  border:solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 20px;
+  width:30%
+}
+.jkfoundation{
+  text-align: center;
+  font-family: Trebuchet Ms;
+  padding:5%;
+}
+#SD3{
+  float: left;
+  position: relative;
+	top: 70px;
+  border:solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 20px;
+  width:30%
+}
+#org{
+  text-align: center;
+  clear: both;
+  position: relative;
+	top: 70px;
+  font-family: Trebuchet Ms;
+  padding-top: 80px;
+  font-size: 20pt;
+}
+.uwd{
+  text-align: center;
+  font-family: Trebuchet Ms;
+  padding:5%;
+}
+#one{
+  float: left;
+  position: relative;
+	top: 70px;
+  border:solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 15px;
+  width:30%
+}
+.cei{
+  text-align: center;
+  font-family: Trebuchet Ms;
+  padding:5%;
+}
+#two{
+  float: left;
+  position: relative;
+  top: 70px;
+  border:solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 25px;
+  width:30%
+
+}
+.quest{
+  text-align: center;
+  font-family: Trebuchet Ms;
+  padding:5%;
+}
+#three{
+  float: left;
+  position: relative;
+  top: 70px;
+  border:solid 10px;
+  border-image-width: 20px;
+  background-color:#E5F0F1;
+  border-color: #E5F0F1;
+  margin-left: 25px;
+  width:30%
+
+}
