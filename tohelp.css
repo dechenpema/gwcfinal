@@ -26,6 +26,8 @@ body{
 #d{
   text-align: center;
   font-family: Trebuchet Ms;
+  clear:both;
+  margin:0
 }
 #p2{
   border: solid 10px;
@@ -64,18 +66,13 @@ body{
   cursor: pointer;
 }
 #more{
-  clear:both;
   padding-top: 80px;
   float:left;
   font-size: 20pt
 }
-
-#more li{
-	display:block
-}
-
 #diff{
-  float: left;
+  padding-top:40px;
+  float: right;
   margin-left: 60px;
 }
 #SD{
