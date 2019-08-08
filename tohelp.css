@@ -69,6 +69,11 @@ body{
   float:left;
   font-size: 20pt
 }
+
+#more li{
+	display:block
+}
+
 #diff{
   float: left;
   margin-left: 60px;
