@@ -75,28 +75,31 @@ body{
   margin: 0;
 }
 
+#fig_el6844645446339927740418188{
+  float:left;
+  margin-right:5%;
+  margin-left: 2%;
+  width: 40%;
+  font-family:Trebuchet MS;
+  font-size: 20pt;
+}
+
 #body2 p{
   font-family:Trebuchet MS;
-  width: 50%;
+  width: 45%;
   font-style:normal;
   height:100px;
+  text-align: right;
 }
 
 #body2 h2{
   font-family:Trebuchet MS;
   font-style:normal;
+  text-align: right;
   margin-right: 5%;
-  width:40%;
+  width:45%;
   height:10px;
   color:rgb(41, 87, 140);
-}
-
-#body2 img{
-  float: left;
-  width: 40%;
-  margin: 0;
-  padding-top: 60px;
-  padding-left: 40px;
 }
 
 #body3 h2{
