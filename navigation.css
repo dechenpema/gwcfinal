@@ -4,6 +4,7 @@ menu {
   padding: 0;
   width:100%;
   position: fixed;
+  z-index: 2;
   display: inline-block;
   font-family:"PT Serif";
   overflow: hidden;
@@ -73,6 +74,7 @@ color:  ##393F44;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    position: fixed;
 }
 
 .dropdown-content a {
