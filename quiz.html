@@ -28,33 +28,35 @@
     <form>
       <fieldset>
         <legend>Question 1</legend>
-        <p>Curabitur non ornare elit. Etiam sit amet feugiat leo, nec efficitur orci?</p>
-        <input type="radio" name="answer" value="responseA" onclick="wrongAnswer1()">Response A<br>
-        <input type="radio" name="answer" value="responseB" onclick="rightAnswer1()">Response B<br>
-        <input type="radio" name="answer" value="responseC" onclick="wrongAnswer1()">Response C<br>
-        <input type="radio" name="answer" value="responseD" onclick="wrongAnswer1()">Response D<br>
+        <p>15% of high-income students from the 2004 graduating class of high school enrolled in a highly selective college or university.
+          What percent of low-income students from the 2004 graduating class enrolled in a highly selective college?</p>
+        <input type="radio" name="answer" value="responseA" onclick="wrongAnswer1()">10%<br>
+        <input type="radio" name="answer" value="responseB" onclick="rightAnswer1()">2%<br>
+        <input type="radio" name="answer" value="responseC" onclick="wrongAnswer1()">5%<br>
+        <input type="radio" name="answer" value="responseD" onclick="wrongAnswer1()">13%<br>
         <div id="wrongAnswer1" style="display:none">
           <p>The answer you put is <b>wrong</b>.</p>
-          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+          <p>Fact: 15% of high-income students from the 2004 graduating class of high school enrolled in a highly selective college or university compared to only 5% of middle-income graduates and 2% of low-income graduates.</p>
         </div>
         <div id="rightAnswer1" style="display:none">
           <p>The answer you put is <b>right</b>.</p>
-          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+          <p>Fact: 15% of high-income students from the 2004 graduating class of high school enrolled in a highly selective college or university compared to only 5% of middle-income graduates and 2% of low-income graduates.</p>
       </fieldset>
       <fieldset>
         <legend>Question 2</legend>
-        <p>Curabitur non ornare elit. Etiam sit amet feugiat leo, nec efficitur orci?</p>
-        <input type="radio" name="answer" value="responseA" onclick="wrongAnswer2()">Response A<br>
-        <input type="radio" name="answer" value="responseB" onclick="wrongAnswer2()">Response B<br>
-        <input type="radio" name="answer" value="responseC" onclick="wrongAnswer2()">Response C<br>
-        <input type="radio" name="answer" value="responseD" onclick="rightAnswer2()">Response D<br>
+        <p>In the 1980s, the gap between the reading and math skills of the wealthiest 10 percent of kids and poorest 10 percent was about 90 points on an 800-point SAT-type scale.
+           What is the gap today?</p>
+        <input type="radio" name="answer" value="responseA" onclick="wrongAnswer2()">100 points<br>
+        <input type="radio" name="answer" value="responseB" onclick="wrongAnswer2()">70 points<br>
+        <input type="radio" name="answer" value="responseC" onclick="wrongAnswer2()">50 points<br>
+        <input type="radio" name="answer" value="responseD" onclick="rightAnswer2()">125 points<br>
         <div id="wrongAnswer2" style="display:none">
           <p>The answer you put is <b>wrong</b>.</p>
-          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+          <p>Fact: In the 1980s, the gap between the reading and math skills of the wealthiest 10 percent of kids and poorest 10 percent was about 90 points on an 800-point SAT-type scale. Three decades later, the gap has grown to 125 points.</p>
         </div>
         <div id="rightAnswer2" style="display:none">
           <p>The answer you put is <b>right</b>.</p>
-          <p>Fact: Nunc neque quam, fermentum ut rhoncus id, viverra vel leo. In sagittis mollis bibendum.</p>
+          <p>Fact: In the 1980s, the gap between the reading and math skills of the wealthiest 10 percent of kids and poorest 10 percent was about 90 points on an 800-point SAT-type scale. Three decades later, the gap has grown to 125 points.</p>
       </fieldset>
       <button type="button" id="submit" onclick="showScore()">See your final score!</button>
       <p id="finalscore"></p>
