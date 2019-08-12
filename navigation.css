@@ -1,10 +1,16 @@
+body{
+  padding:0;
+  margin:0;
+}
+
 menu {
   list-style-type: none;
-  margin: 0;
+  margin: 0 !important;
   padding: 0;
   width:100%;
   position: fixed;
-  z-index: 2;
+  bottom:94%;
+  z-index:2;
   display: inline-block;
   font-family:"PT Serif";
   overflow: hidden;
@@ -28,7 +34,7 @@ a{
   color: #393F44;
 }
 
-input.button{
+/* input.button{
 display: inline-block;
 color: white;
 background-color:##393F44;
@@ -37,8 +43,8 @@ font-size: 13px;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
-}
-button.button{
+} */
+/* button.button{
 display: inline-block;
 color: white;
 background-color:##393F44;
@@ -47,7 +53,7 @@ font-size: 13px;
 text-align: center;
 padding: 14px 16px;
 
-}
+} */
 
 li a, .dropbtn {
     display: inline-block;
