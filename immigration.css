@@ -1,7 +1,6 @@
 #firstproblem h2{
   font-family:Trebuchet MS;
   font-style:normal;
-  font-size:30px;
   float:left;
   padding-left: 40px;
   width:100%;
@@ -10,6 +9,7 @@
 }
 
 #firstproblem{
+  font-size:20px;
   height: 400px;
   margin: 0;
 }
