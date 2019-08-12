@@ -47,7 +47,6 @@ h1{
   height:775px;
   float: left;
   border-radius:3px;
-  background-color:#E5F0F1;
   overflow-y:auto;
   overflow-x:hidden;
   margin-left:6%;
@@ -71,7 +70,6 @@ h1{
   height:775px;
   float: left;
   border-radius:3px;
-  background-color:#E5F0F1;
   overflow-y:auto;
   overflow-x:hidden;
   margin-left:6%;
@@ -87,7 +85,6 @@ h1{
   height:775px;
   float: left;
   border-radius:3px;
-  background-color:#E5F0F1;
   overflow-y:auto;
   overflow-x:hidden;
   margin-left:6%;
@@ -101,14 +98,19 @@ h1{
 .contact{
   width:100%;
   font-family:Trebuchet MS;
-  height:45px;
+  height:40px;
   background-color:rgb(41,87,140);
   text-align:center;
-  padding-top:25px;
+  padding-top:10px
 }
 
 a:hover{
   cursor:pointer
+}
+
+.noncontact{
+  background-color:#E5F0F1;
+  height:700px
 }
 
 .contact a{color:white;}
