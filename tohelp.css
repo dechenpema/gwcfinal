@@ -116,7 +116,8 @@ body{
   background-color:#E5F0F1;
   border-color: #E5F0F1;
   margin-left: 15px;
-  width:30%
+  width:30%;
+  height: 867.88px
 
 }
 .sdImg{
@@ -154,7 +155,8 @@ body{
   background-color:#E5F0F1;
   border-color: #E5F0F1;
   margin-left: 20px;
-  width:30%
+  width:30%;
+  height: 867.88px
 }
 #org{
   text-align: center;
