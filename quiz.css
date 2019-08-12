@@ -15,7 +15,9 @@ legend{
 fieldset{
   border-radius: 3px;
   background-color:#E5F0F1;
-  margin-bottom:2%
+  margin-bottom:2%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 input{
   margin:5px;
@@ -25,7 +27,8 @@ input{
   background-color:rgb(41,87,140);
   height:50px;
   width:10%;
-  border-radius:5px
+  border-radius:5px;
+  margin-left: 5%
 }
 
 #submit:hover{
