@@ -17,54 +17,72 @@ body{
   font-family: Trebuchet Ms;
 }
 #p1{
-  border:solid 10px;
   float: left;
-  border-image-width: 20px;
   background-color:#E5F0F1;
   border-color:#E5F0F1;
-  margin-left: 60px;
+  margin-left: 5%;
+  width: 350px;
+  height: 60px;
+  border-radius:5px
 }
 #d{
   text-align: center;
   font-family: Trebuchet Ms;
   clear:both;
-  margin:0
+  margin:0;
+  padding: 15px
 }
 #p2{
-  border: solid 10px;
-  border-image-width: 20px;
   background-color:#E5F0F1;
   border-color: #E5F0F1;
   margin-left: 70px;
   float: left;
+  width: 350px;
+  height: 60px;
+  border-radius:5px;
+  margin-left: 7%
+
 }
 #i{
   text-align: center;
   font-family: Trebuchet Ms;
+  clear:both;
+  margin:0;
+  padding: 5px
 }
 
 #p3{
-  border:solid 10px;
-  border-image-width: 20px;
   background-color:#E5F0F1;
   border-color: #E5F0F1;
   margin-left: 68px;
   float: left;
+  width: 350px;
+  height: 60px;
+  border-radius:5px;
+  margin-left: 7%;
+  margin-right: 3%
 }
+
 #e{
   text-align: center;
   font-family: Trebuchet Ms;
+  clear:both;
+  margin:0;
+  padding: 5px
 }
 
 #p1:hover{
-  cursor:pointer
+  cursor:pointer;
+  background-color: #ECF1F1;
 }
 
 #p2:hover{
-  cursor:pointer
+  cursor:pointer;
+  background-color: #ECF1F1;
 }
 #p3:hover{
   cursor: pointer;
+  background-color: #ECF1F1;
 }
 #more{
   padding-top: 80px;
@@ -119,7 +137,8 @@ body{
   background-color:#E5F0F1;
   border-color: #E5F0F1;
   margin-left: 20px;
-  width:30%
+  width:30%;
+  height: 30%
 }
 .jkfoundation{
   text-align: center;
