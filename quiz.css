@@ -3,6 +3,9 @@ h1{
   color:rgb(41, 87, 140);
   text-align:center
 }
+#body{
+  margin-top:5%
+}
 legend{
   color:rgb(41,87,140);
   padding:1%;
@@ -28,7 +31,9 @@ input{
   height:50px;
   width:10%;
   border-radius:5px;
-  margin-left: 3%
+  margin-left: 3%;
+  float:left;
+  margin-right:2%
 }
 
 #submit:hover{
@@ -52,4 +57,9 @@ input{
 
 b{
   color:rgb(32, 67, 107)
+}
+
+#finalscore{
+  padding-top:25px;
+  height:50px
 }
