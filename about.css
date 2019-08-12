@@ -44,7 +44,7 @@ h1{
 
 #dp{
   width:25%;
-  height:775px;
+  height:800px;
   float: left;
   border-radius:3px;
   overflow-y:auto;
@@ -54,7 +54,7 @@ h1{
 .n1{
   text-align: center;
   font-family: Trebuchet MS;
-  color:rgb(41,87,140)
+  color:rgb(41,87,140);
 }
 
 .text{
@@ -67,7 +67,7 @@ h1{
 }
 #ds{
   width:25%;
-  height:775px;
+  height:800px;
   float: left;
   border-radius:3px;
   overflow-y:auto;
@@ -82,7 +82,7 @@ h1{
 
 #am{
   width:25%;
-  height:775px;
+  height:800px;
   float: left;
   border-radius:3px;
   overflow-y:auto;
@@ -110,7 +110,8 @@ a:hover{
 
 .noncontact{
   background-color:#E5F0F1;
-  height:700px
+  height:700px;
+  padding-top:30px
 }
 
 .contact a{color:white;}
