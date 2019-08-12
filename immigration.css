@@ -2,14 +2,13 @@
   font-family:Trebuchet MS;
   font-style:normal;
   float:left;
-  padding-left: 40px;
+  padding-left: 20px;
   width:100%;
   height:10px;
   color:rgb(41, 87, 140);
 }
 
 #firstproblem{
-  font-size:20px;
   height: 400px;
   margin: 0;
 }
