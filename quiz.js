@@ -1,10 +1,13 @@
 var score=0;
+var answer1;
+var answer2;
 
 function wrongAnswer1(){
   var x=document.getElementById("wrongAnswer1");
   if(x.style.display==="none"){
     x.style.display="block";
   }
+  answer1=0;
 }
 
 function rightAnswer1(){
@@ -12,7 +15,7 @@ function rightAnswer1(){
   if (x.style.display==="none"){
     x.style.display="block";
   }
-  score++;
+  answer1=1;
 }
 
 function wrongAnswer2(){
@@ -20,6 +23,7 @@ function wrongAnswer2(){
   if(x.style.display==="none"){
     x.style.display="block";
   }
+  answer2=0;
 }
 
 function rightAnswer2(){
@@ -27,9 +31,11 @@ function rightAnswer2(){
   if (x.style.display==="none"){
     x.style.display="block";
   }
-  score++
+  answer2=1;
 }
 
 function showScore(){
+  score=answer1+answer2;
   document.getElementById("finalscore").innerHTML="Your final score is: "+score+"/2. Disappointed in your results? Read the rest of our website to learn more.";
+  score=0;
 }
