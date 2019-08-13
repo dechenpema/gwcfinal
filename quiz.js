@@ -1,8 +1,8 @@
 var score=0;
-var answer1=0;
-var answer2=0;
-var answer3=0;
-var answer4=0;
+var answer1;
+var answer2;
+var answer3;
+var answer4;
 
 function wrongAnswer1(){
   var x=document.getElementById("wrongAnswer1");
