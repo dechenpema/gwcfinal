@@ -6,15 +6,17 @@
 }
 
 #title{
-  font-family:Trebuchet MS;
+  font-family: PT Sans;
   font-style: normal;
   position: absolute;
-  top:25%;
-  left:40%;
-  right:40%;
-  font-size: 40pt;
+  top:20%;
+  left:20%;
+  right:20%;
+  font-size: 70pt;
   text-align:center;
-  color:rgb(41,87,140);
+  color: rgb(41,87,140);
+  background-color:#E5F0F1;
+  border-radius:15px;
 }
 #coverphoto{
   width:100%;
@@ -78,7 +80,7 @@ body{
 }
 
 #secondsolution img{
-  width:25%;
+  width:20%;
   height:60px
 }
 
