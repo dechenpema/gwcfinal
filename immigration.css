@@ -108,12 +108,17 @@
   font-family:Trebuchet MS;
   font-style: normal;
   position: absolute;
-  top:40%;
+  top:22%;
   left:30%;
   right:30%;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-size: 40pt;
   text-align:center;
-  color:white;
+  color: rgb(41, 87, 140);
+  background-color: #E5F0F1;
+  border-radius: 15px
 }
 #coverphoto{
   width:100%;
