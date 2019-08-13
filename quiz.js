@@ -4,34 +4,34 @@ var answer2;
 
 function wrongAnswer1(){
   var x=document.getElementById("wrongAnswer1");
-  if(x.style.display==="none"){
+  if((x.style.display==="none") && !(answer1===1)){
     x.style.display="block";
+    answer1=0;
   }
-  answer1=0;
 }
 
 function rightAnswer1(){
   var x=document.getElementById("rightAnswer1");
-  if (x.style.display==="none"){
+  if ((x.style.display==="none") && !(answer1===0)){
     x.style.display="block";
+    answer1=1;
   }
-  answer1=1;
 }
 
 function wrongAnswer2(){
   var x=document.getElementById("wrongAnswer2");
-  if(x.style.display==="none"){
+  if((x.style.display==="none") && !(answer2===1)){
     x.style.display="block";
+    answer2=0;
   }
-  answer2=0;
 }
 
 function rightAnswer2(){
   var x=document.getElementById("rightAnswer2");
-  if (x.style.display==="none"){
+  if ((x.style.display==="none") && !(answer2===0)){
     x.style.display="block";
+    answer2=1;
   }
-  answer2=1;
 }
 
 function showScore(){
