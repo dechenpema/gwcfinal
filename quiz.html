@@ -23,7 +23,7 @@
         <li><a href=quiz.html>Quiz Yourself!</a></li>
        </div>
     </menu>
-  <div id="body">  
+  <div id="body">
     <h1>How much do you really know about education accessibility?</h1>
     <form>
       <fieldset>
@@ -34,11 +34,11 @@
         <input type="radio" name="answer" value="responseB" onclick="rightAnswer1()">2%<br>
         <input type="radio" name="answer" value="responseC" onclick="wrongAnswer1()">5%<br>
         <input type="radio" name="answer" value="responseD" onclick="wrongAnswer1()">13%<br>
-        <div id="wrongAnswer1" style="display:none">
+        <div id="wrongAnswer1" style="display:none" class="answers">
           <p>The answer you put is <b>wrong</b>.</p>
           <p>Fact: 15% of high-income students from the 2004 graduating class of high school enrolled in a highly selective college or university compared to only 5% of middle-income graduates and 2% of low-income graduates.</p>
         </div>
-        <div id="rightAnswer1" style="display:none">
+        <div id="rightAnswer1" style="display:none" class="answers">
           <p>The answer you put is <b>right</b>.</p>
           <p>Fact: 15% of high-income students from the 2004 graduating class of high school enrolled in a highly selective college or university compared to only 5% of middle-income graduates and 2% of low-income graduates.</p>
       </fieldset>
@@ -50,17 +50,47 @@
         <input type="radio" name="answer" value="responseB" onclick="wrongAnswer2()">70 points<br>
         <input type="radio" name="answer" value="responseC" onclick="wrongAnswer2()">50 points<br>
         <input type="radio" name="answer" value="responseD" onclick="rightAnswer2()">125 points<br>
-        <div id="wrongAnswer2" style="display:none">
+        <div id="wrongAnswer2" style="display:none" class="answers">
           <p>The answer you put is <b>wrong</b>.</p>
           <p>Fact: In the 1980s, the gap between the reading and math skills of the wealthiest 10 percent of kids and poorest 10 percent was about 90 points on an 800-point SAT-type scale. Three decades later, the gap has grown to 125 points.</p>
         </div>
-        <div id="rightAnswer2" style="display:none">
+        <div id="rightAnswer2" style="display:none" class="answers">
           <p>The answer you put is <b>right</b>.</p>
           <p>Fact: In the 1980s, the gap between the reading and math skills of the wealthiest 10 percent of kids and poorest 10 percent was about 90 points on an 800-point SAT-type scale. Three decades later, the gap has grown to 125 points.</p>
       </fieldset>
-      <button type="button" id="submit" onclick="showScore()">See your final score!</button>
-      <p id="finalscore"></p>
-    </form>
+      <fieldset>
+        <legend>Question 3</legend>
+        <p>What does DACA stand for?</p>
+        <input type="radio" name="answer" value="responseA" onclick="wrongAnswer3()">Deferred Arrivals for Childhood Action<br>
+        <input type="radio" name="answer" value="responseB" onclick="wrongAnswer3()">Departmental Action for Childhood Arrivals<br>
+        <input type="radio" name="answer" value="responseC" onclick="rightAnswer3()">Deferred Action for Childhood Arrivals<br>
+        <input type="radio" name="answer" value="responseD" onclick="wrongAnswer3()">None of the Above<br>
+        <div id="wrongAnswer3" style="display:none" class="answers">
+          <p>The answer you put is <b>wrong</b>.</p>
+          <p>Fact: DACA stands for Deferred Action for Childhood Arrivals and is an American immigration policy that allows some individuals with unlawful presence in the United States after being brought to the country as children to receive a renewable two-year period of deferred action from deportation and become eligible for a work permit.</p>
+        </div>
+        <div id="rightAnswer3" style="display:none" class="answers">
+          <p>The answer you put is <b>right</b>.</p>
+          <p>Fact: DACA stands for Deferred Action for Childhood Arrivals and is an American immigration policy that allows some individuals with unlawful presence in the United States after being brought to the country as children to receive a renewable two-year period of deferred action from deportation and become eligible for a work permit.</p>
+    </fieldset>
+    <fieldset>
+      <legend>Question 4</legend>
+      <p>How many DREAMers are part of the DACA program?</p>
+      <input type="radio" name="answer" value="responseA" onclick="wrongAnswer4()">About 50,000<br>
+      <input type="radio" name="answer" value="responseB" onclick="wrongAnswer4()">About 300,000<br>
+      <input type="radio" name="answer" value="responseC" onclick="rightAnswer4()">About 800,000<br>
+      <input type="radio" name="answer" value="responseD" onclick="wrongAnswer4()">About 1,000,000<br>
+      <div id="wrongAnswer4" style="display:none" class="answers">
+        <p>The answer you put is <b>wrong</b>.</p>
+        <p>Fact: Of the 1.2 million eligible people, roughly 800,000 actually have DACA status. However, this is just an estimation as there are possibly more people who live in the shadows.</p>
+      </div>
+      <div id="rightAnswer4" style="display:none" class="answers">
+        <p>The answer you put is <b>right</b>.</p>
+        <p>Fact: Of the 1.2 million eligible people, roughly 800,000 actually have DACA status. However, this is just an estimation as there are possibly more people who live in the shadows.</p>
+    </fieldset>
+    <button type="button" id="submit" onclick="showScore()">See your final score!</button>
+    <p id="finalscore"></p>
+  </form>
   </div>
   </body>
 </html>
